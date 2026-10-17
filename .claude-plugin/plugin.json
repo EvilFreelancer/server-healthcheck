@@ -1,0 +1,26 @@
+{
+  "name": "server-healthcheck",
+  "description": "Check whether a host or a whole namespace of a fleet harness repository is healthy, read-only: a POSIX pass over boot history, clock, units, disks, OOM, containers, resolvers, ports, NVIDIA and Intel Arc GPUs and PCIe AER, drift against the host card, stacks against the mirror, and functional probes of every service, rolled up into healthy, warming up, degraded, broken or unreachable.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Pavel Rykov",
+    "email": "paul@drteam.rocks",
+    "url": "https://t.me/evilfreelancer"
+  },
+  "homepage": "https://github.com/EvilFreelancer/server-healthcheck",
+  "repository": "https://github.com/EvilFreelancer/server-healthcheck",
+  "license": "MIT",
+  "keywords": [
+    "devops",
+    "healthcheck",
+    "monitoring",
+    "diagnostics",
+    "power-outage",
+    "ssh",
+    "docker",
+    "nvidia",
+    "intel-arc",
+    "inference",
+    "vllm"
+  ]
+}
